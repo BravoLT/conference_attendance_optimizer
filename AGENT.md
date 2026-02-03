@@ -32,6 +32,7 @@ To ensure continuity and deep understanding, follow these rules:
    - `state.md`: Current progress of features.
 3. **History**: Check `.ai/history/` for past session summaries to understand "how" and "why" things were done.
 4. **Primacy of README**: The root `README.md` is the source of truth for features; `AGENT.md` is the source of truth for *how* you should work.
+5. **Presentation Tracking**: In addition to standard history, update `.presentation/history.md` with a narrative entry suitable for a future talk or video generation. Include "Narrative/Script" and "Visuals" sections.
 
 ## Development Workflow
 - **Git Flow**: This project follows Git Flow.
