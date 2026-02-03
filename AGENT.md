@@ -6,11 +6,22 @@ Welcome, AI Agent. This file is your primary guide for working on the **Conferen
 The goal is to optimize employee attendance at conferences based on company goals (learning vs. networking), employee availability, budget, and expertise.
 
 ## Core Responsibilities
+- **PRP Framework Execution**: Follow the Proactive Review & Planning lifecycle (PRD -> Plan -> Implementation -> Report).
 - **Search & Filter**: Find relevant conferences.
 - **Employee Matching**: Match employees to events based on skills and budget.
 - **Availability Management**: Integrate with calendars and handle manual blocks.
 - **Logistics Estimation**: Estimate travel, food, and accommodation costs.
 - **Booking & Scheduling**: Manage the acceptance/rejection flow and update calendars/budgets.
+
+## PRP Framework (Product Requirement Prompts)
+This project uses the PRP framework for agentic engineering.
+- **Artifacts**: All PRP artifacts are in `.ai/PRPs/`.
+  - `prds/`: Detailed requirements documents.
+  - `plans/`: Step-by-step implementation plans.
+  - `reports/`: Outcome reports for completed tasks.
+- **Templates**: Use templates in `.ai/templates/` for new documents.
+- **Rules**: Never start a medium or large task without a PRD and an approved Plan.
+
 
 ## AI Guidelines for Context & History
 To ensure continuity and deep understanding, follow these rules:
